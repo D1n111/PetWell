@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="img/icon.jpeg">
+    <title>PetWell</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/icon.jpeg" alt="Logo" width="45" height="40" class="d-inline-block align-text-top">
+              PetWell
+            </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Secciones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="caract.html">Caracteristicas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="testimonios.html">Testimonios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="registros.html">Registros</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">CUIDA MUY BIEN A TUS MASCOTAS ♡</a>
+              </li>
+              <div class="p-2">
+              <button type="button" class="btn btn-primary position-relative">
+                Descarga la Aplicacion! <i class="fa-brands fa-google-play"></i><i class="fa-brands fa-app-store-ios p-2"></i>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+              </div>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Navegar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-center">
+        <h1>CUIDA DE TUS MASCOTAS CON PETWELL <span class="badge text-bg-secondary">♡</span></h1>
+      </div>
+      <div class="d-flex justify-content-center p-3">
+        <h5>En nuestra página, encontrarás todo lo que necesitas saber para brindar el mejor cuidado a tu mascota. Ofrecemos consejos prácticos y especializados sobre alimentación, ejercicio, salud y bienestar, adaptados a diferentes especies y etapas de vida. Nuestro objetivo es ayudarte a crear un ambiente seguro y amoroso para tus compañeros peludos. Además, encontrarás artículos sobre entrenamiento, comportamientos comunes y productos recomendados, todo diseñado para mejorar la vida de tus mascotas y fortalecer el vínculo que compartes con ellas. ¡Explora nuestros recursos y convierte a tu mascota en la más feliz y saludable!</h5>
+      </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/carrusel.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Alimentación Balanceada</h5>
+              <p>Proporcionar a tu mascota una dieta equilibrada es esencial para su salud y bienestar. Consulta con tu veterinario para asegurarte de que recibe los nutrientes adecuados según su especie, edad y nivel de actividad. Evita darle alimentos humanos que puedan ser perjudiciales.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carrusel.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ejercicio Regular</h5>
+              <p>Mantén a tu mascota activa con ejercicio diario. Ya sea sacando a pasear a tu perro, jugando con tu gato o proporcionando juguetes interactivos, el ejercicio ayuda a prevenir problemas de salud y mejora su estado de ánimo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Visitas Veterinarias Periódicas</h5>
+              <p>Lleva a tu mascota al veterinario al menos una vez al año para chequeos de rutina y vacunaciones. Las visitas regulares ayudan a detectar y tratar posibles problemas de salud a tiempo, asegurando una vida larga y saludable para tu compañero.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row text-bg-secondary p-4">
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h3">PetWell</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Redes Sociales</p>
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Facebook</a>
+            </div>
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Twitter</a>
+            </div>
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Instagram</a>
+            </div>
+            <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Youtube</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Contacto</p>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="#">Correo:</a>
+              <br>
+              <a class="text-white text-decoration-none" href="#">petwell@gmail.co</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="#">Telefono:</a>
+              <br>
+              <a class="text-white text-decoration-none" href="#">+57 3184627958</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Enlaces</p>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="#">Terminos y Condiciones</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-white text-decoration-none" href="#">Politoca de Privacidad</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://kit.fontawesome.com/847754b70d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
